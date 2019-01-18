@@ -1,5 +1,4 @@
 # Month 1 - C#
-
 To really understand the history of C#, we need to take a step back in time to the year 1990...
 
 It was a year that saw cinema screens _rocked_ by the smouldering hair cuts of Demi Moore and Patrick Swayze. A year that the UK's Prime Minister Margaret Thatcher stepped down shortly after having introduced the _wildly_ popular Poll Tax. It was the year that the Hubble Space Telescope was launched from the space shuttle Discovery - propelling $1.5 billion of NASA technology to a modest altitude of some 340 miles above Earth. 
@@ -71,3 +70,6 @@ else
    nCnt--;
 }
 ```
+
+Just look at those semicolons. Delicious.
+
