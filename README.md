@@ -6,30 +6,8 @@ SO - Without any ado _whatsoever_:
 
 ---
 
-[__Month 1__ - C#](c#/README.md)
+[__Month 1__ - C#](c-sharp.md)
 
 Once the closed-source staple of enterprise Windows applications and web monoliths, C# has evolved into a lightweight, cross-platform and scalable programming language with a growing community of open source contributors. Learn common usages, frameworks and patterns this month with this multi-paradigm language.
 
 ---
-
-Month 2 - Clojure
-
-Month 3 - Kotlin
-
-Month 4 - Ruby
-
-Month 5 - Python
-
-Month 6 - Go
-
-Month 7 - R
-
-Month 8 - Scala
-
-Month 9 - JavaScript
-
-Month 10 - Rust
-
-Month 11 - F#
-
-Month 12 - Java
