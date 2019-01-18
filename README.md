@@ -10,6 +10,8 @@ SO - Without any ado _whatsoever_:
 
 Once the closed-source staple of enterprise Windows applications and web monoliths, C# has evolved into a lightweight, cross-platform and scalable programming language with a growing community of open source contributors. Learn common usages, frameworks and patterns this month with this multi-paradigm language.
 
+---
+
 Month 2 - Clojure
 
 Month 3 - Kotlin
