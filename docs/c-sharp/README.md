@@ -5,11 +5,17 @@ title: Month 1 - C#
 # Month 1 - C#
 Once the closed-source staple of enterprise Windows applications and web monoliths, C# has evolved into a lightweight, cross-platform and scalable programming language with a growing community of open source contributors.
 
+---
+
 ### What is it?
 C# is a general purpose, multi-paradigm programming language and has run-times available for Mac OSX, Windows and Linux.
 
+---
+
 ### What can I build with it?
 Web apps, services, CLIs, serverless components, games (Unity's preferred scripting language is C#), Windows desktop applications and more.
+
+---
 
 ### What do I need to get started?
 - The __dotnet core__ SDK
@@ -19,6 +25,8 @@ Web apps, services, CLIs, serverless components, games (Unity's preferred script
 - An IDE
 
   [Go and get Visual Studio Code.](https://code.visualstudio.com/) It is properly good.
+
+---
 
 ### History
 To really understand the history of C#, we need to take a step back in time to the year 1990...
@@ -116,6 +124,8 @@ So we've spoken a little about the origins of C# as a programming language and h
 On March 31st, 2014 the .NET Foundation was founded by Microsoft with the sole intention of improving open-source software and collaboration around the .NET Framework. Amongst all the other projects that were invested in as part of these renewed efforts to _make .NET great again_; Microsoft announced __.NET Core__ - a ground-up redesign of the language with an emphasis on multiple platforms and portability.
 
 I realise now that I've banged on for quite a while without giving any specifics about language fundamentals etc, but C# .NET Core is going to be the basis of this language exploration.
+
+---
 
 ### Hello, World
 ```csharp
