@@ -1,9 +1,3 @@
 theme: jekyll-theme-slate
 title: 12 Languages in 12 Months
 description: An irreverent journey through 12 programming languages.
-markdown: kramdown
-kramdown:
-    highlighter: rouge
-    syntax_highlighter_opts:
-        block:
-            line_numbers: true
