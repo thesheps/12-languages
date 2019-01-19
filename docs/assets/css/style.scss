@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.rouge-code {
+    border: none !important;
+    width: 100%;
+}
+
+.rouge-gutter {
+    border: none !important;
+}
