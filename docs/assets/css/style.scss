@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.rouge-table {
+    border: none !important;
+}
+
 .rouge-code {
     border: none !important;
     width: 100%;
