@@ -50,7 +50,7 @@ As for C#? This had been in development since 1999 by one of Borland's chief arc
 
 In any case, C# .NET provided a similarly-native "Windowsy" experience to that of VB6/.NET; but with much more of a C-Like feel to proceedings:
 
-```VB
+```vb
 ' VB .NET
 If nCnt <= nMax Then 
    nTotal += nCnt  
@@ -61,7 +61,9 @@ Else
 End If
 ```
 
-```C#
+---
+
+```csharp
 // C# .NET
 if (nCnt <= nMax)
 {
