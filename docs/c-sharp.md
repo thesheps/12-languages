@@ -1,3 +1,7 @@
+---
+title: Month 1 - C#
+---
+
 # Month 1 - C#
 To really understand the history of C#, we need to take a step back in time to the year 1990...
 
