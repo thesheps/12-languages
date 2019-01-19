@@ -126,3 +126,15 @@ public static void Main(string[] args)
    Console.WriteLine("Hello World!");
 }
 ```
+
+- __Line 1__
+
+  Here we import the System _namespace_ such that we can use the Console _class_ on line 5 to write "Hello World".
+
+- __Line 3__
+
+  This is the declaration for a _method_ called Main. It takes a _string array_ called args.
+
+- __Lines 4-6__
+
+  Every method, class and namespace you write in C# __must__ begin and end with curlies. On line 5, we execute the WriteLine _method_ of the Console _class_, and pass our "Hello World" string.
