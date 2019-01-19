@@ -116,3 +116,13 @@ So we've spoken a little about the origins of C# as a programming language and h
 On March 31st, 2014 the .NET Foundation was founded by Microsoft with the sole intention of improving open-source software and collaboration around the .NET Framework. Amongst all the other projects that were invested in as part of these renewed efforts to _make .NET great again_; Microsoft announced __.NET Core__. - a ground-up redesign of the language with an emphasis on multiple platforms and portability.
 
 I realise now that I've banged on for quite a while without giving any specifics about language fundamentals etc, but C# .NET Core is going to be the basis of this language exploration.
+
+### Hello, World
+```csharp
+using System;
+
+public static void Main(string[] args)
+{
+   Console.WriteLine("Hello World!");
+}
+```
