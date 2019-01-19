@@ -39,7 +39,7 @@ Immediately snaffled up by Bill Gates as a "cool" extension to one of their ongo
 
 Whilst there were numerous languages preceding Visual Basic that enabled devs to create Guis; this was the first time that a "drag 'n' drop" simplicity had been extended to an enterprise-y development environment. Not only could you now piece together multiple screens based off discrete components, but with its introduction of _Events_; you could easily create callback methods which would be executed on the click of a button/scroll of a ListBox:
 
-{% highlight vb linenos=table %}
+{% highlight vb linenos %}
 ' mmmm ListBoxes
 Private Sub List1_Click()
     Print "Clicked - " & Me.List1.List(Me.List1.ListIndex)
