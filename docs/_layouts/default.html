@@ -35,8 +35,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="sidebar_content" class="inner">
         {% for section in page.sections %}
-            {{ assign link = section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," }}
-            {{ link }}
+            {{ section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," | split: " " | join: "-" }}
         {% endfor %}
       </section>
 
