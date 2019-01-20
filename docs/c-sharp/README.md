@@ -1,5 +1,6 @@
 ---
 title: Month 1 - C#
+sidebar: toc
 ---
 
 # Month 1 - C#
