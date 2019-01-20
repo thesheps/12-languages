@@ -37,7 +37,7 @@
           <ul>
             {% for section in page.sections %}
                 {% assign href = section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," | split: " " | join: "-" %}
-                <li><a href="#{{href}}">{{section}}</a></li>
+                <li><a href="#{{href}}"><h2>{{section}}</h2></a></li>
             {% endfor %}
           </ul>
       </section>
