@@ -34,10 +34,12 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="sidebar_content" class="inner">
-        {% for section in page.sections %}
-            {% assign href = section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," | split: " " | join: "-" %}
-            <a href="#{{href}}">{{section}}</a>
-        {% endfor %}
+          <ul>
+            {% for section in page.sections %}
+                {% assign href = section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," | split: " " | join: "-" %}
+                <li><a href="#{{href}}">{{section}}</a></li>
+            {% endfor %}
+          </ul>
       </section>
 
       <section id="main_content" class="inner">
