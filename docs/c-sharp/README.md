@@ -2,12 +2,12 @@
 title: Month 1 - C#
 sidebar: toc
 sections:
- - s1
- - s2
- - s3
- - s4
- - s5
- - s6
+ - What is it?
+ - What can I build with it?
+ - What do I need to get started?
+ - History
+ - Hello, World
+ - Deep dive
 ---
 
 # Month 1 - C#
@@ -190,10 +190,13 @@ Here we see the lesser-spotted Hello World in its natural habitat. Let's deep-di
 
   Here we execute the WriteLine _method_ of the Console _class_, and pass our "Hello World" string. Unlike the other lines in this snippet, We end this instruction with a semicolon. All statements in C# require terminating with a semicolon.
 
-### Namespaces, Classes and Methods (oh my!) ###
+### Deep-Dive
+Ok. We've said a whole bunch about the history of the language, a few common uses and demonstrated a very simple "Hello World". Let's get our feet wet and take a look through some language specifics now!
+
+#### Namespaces, Classes and Methods (oh my!) ###
 Ok. Now we've explored a simple code snippet, let's review a few fundamentals in a bit more depth!
 
-#### Namespaces ####
+##### Namespaces ####
 A namespace in C# is a _container_ for stuff. It defines a grouping of logical components. You don't _need_ to use namespaces, but it is highly recommended for an application of any complexity so that you can keep everything nicely organised.
 
 If you want to reference a class within a namespace, you use the _import_ statement. Without specifying this using statement, we could refer to it by it's _fully-qualified name_:
@@ -212,7 +215,7 @@ You'll undoubtedly see loads more conventions in the wild, but if you stick to t
 
 **Note:** It's super important not to name any _Class_ in your Namespace with the same name as your Namespace. Whilst the compiler might not shout at you, you run the risk of introducing insidious bugs and confusion into your codebase. Don't do this.
 
-#### Classes & Methods ####
+##### Classes & Methods ####
 Classes are the building blocks of applications. Every piece of functionality you write in any program will be housed in a class.
 
 Methods are blocks of codes that _optionally_ accept a bunch of parameters and _optionally_ return a value.
