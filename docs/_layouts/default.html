@@ -33,15 +33,6 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="sidebar_content" class="inner">
-          <ul>
-            {% for section in page.sections %}
-                {% assign href = section | downcase | remove: "'" | remove: "?" | remove: "!" | remove: "," | split: " " | join: "-" %}
-                <li><a href="#{{href}}"><h2>{{section}}</h2></a></li>
-            {% endfor %}
-          </ul>
-      </section>
-
       <section id="main_content" class="inner">
         {{ content }}
       </section>
