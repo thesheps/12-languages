@@ -1,6 +1,13 @@
 ---
 title: Month 1 - C#
 sidebar: toc
+sections:
+ - s1
+ - s2
+ - s3
+ - s4
+ - s5
+ - s6
 ---
 
 # Month 1 - C#

@@ -34,7 +34,9 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="sidebar_content" class="inner">
-        SIDEBAR
+        {% for section in sections %}
+            {{ section }}
+        {% endfor %}
       </section>
 
       <section id="main_content" class="inner">
