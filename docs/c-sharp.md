@@ -2,22 +2,26 @@
 title: Month 1 - C#. Background.
 ---
 
-# Month 1 - C#
+# Month 1 - C
+
 Once the closed-source staple of enterprise Windows applications and web monoliths, C# has evolved into a lightweight, cross-platform and scalable programming language with a growing community of open source contributors.
 
 ---
 
-### What is it? ###
+### What is it?
+
 C# is a general purpose, multi-paradigm programming language and has run-times available for Mac OSX, Windows and Linux.
 
 ---
 
-### What can I build with it? ###
+### What can I build with it?
+
 Web apps, services, CLIs, serverless components, games (Unity's preferred scripting language is C#), Windows desktop applications and more.
 
 ---
 
-### What do I need to get started? ###
+### What do I need to get started?
+
 - The **dotnet core** SDK
 
   [Download the SDK from Microsoft](https://dotnet.microsoft.com/download) before you do anything else. This will give you the dotnet CLI (command line interpreter), and all the other tooling you'll need to get going.
@@ -28,7 +32,8 @@ Web apps, services, CLIs, serverless components, games (Unity's preferred script
 
 ---
 
-### History ###
+### History
+
 To really understand the history of C#, we need to take a step back in time to the year 1990...
 
 It was a year that saw cinema screens _rocked_ by the smouldering hair cuts of Demi Moore and Patrick Swayze. A year that the UK's Prime Minister Margaret Thatcher stepped down shortly after having introduced the _wildly_ popular Poll Tax. It was the year that the Hubble Space Telescope was launched from the space shuttle Discovery - propelling \$1.5 billion of NASA technology to a modest altitude of some 340 miles above Earth.
@@ -36,13 +41,13 @@ It was a year that saw cinema screens _rocked_ by the smouldering hair cuts of D
 But even more impressive, even more _profoundly important_ - In a small town in California, a crack group of nerds had given birth to a C-based Form Generator known as **Ruby** (no not that Ruby).
 
 <p align="center">
-<img src="./c-sharp/img/ruby_team.gif" mouseover="Lock up your daughters">
+<img src="./c-sharp/img/ruby_team.gif" title="Lock up your daughters">
 </p>
 
 Immediately snaffled up by Bill Gates as a "cool" extension to one of their ongoing in-house projects (the outrageously-named **Project Thunder**) - **Visual Basic** was introduced to baying hordes of ListBox enthusiasts at the Atlanta World Trade Show in the spring of 1991.
 
 <p align="center">
-<img src="./c-sharp/img/bill.gif" mouseover="Needs more jpeg">
+<img src="./c-sharp/img/bill.gif" title="Needs more jpeg">
 </p>
 
 Whilst there were numerous languages preceding Visual Basic that enabled devs to create Guis; this was the first time that a "drag 'n' drop" simplicity had been extended to an enterprise-y development environment. Not only could you now piece together multiple screens based off discrete components, but with its introduction of _Events_; you could easily create callback methods which would be executed on the click of a button/scroll of a ListBox:
@@ -56,7 +61,8 @@ End Sub
 
 Visual Basic would go on to have a shelf-life of some 18 more years before it was finally put out to pasture but, with its origins so deeply entrenched in the Windows API, its spirit continues to live on today.
 
-#### The .NET Framework ####
+#### The .NET Framework
+
 A somewhat rambling introduction to what I was aiming to be quite a _techy_ publication; but I thought a bit of history might be jolly before jumping straight into the language proper.
 
 In 2002 Microsoft released the first candidate of the .NET Framework for Windows XP (Service Pack 1). Along with the Visual Studio .NET IDE which contained a bunch of redesigned **PROJECT THUNDER** components (let's not forget those listboxes); .NET Framework 1.0 provided a CLR for their new flagship languages:
@@ -118,7 +124,8 @@ This was very much the _meat and potatoes_ of the modern programming language, a
 
 But putting the banjos aside for just one second - This first incarnation of C# (whilst lacking some of the more advanced features such as asynchronous processing or support for generic types) was an incredible milestone of Object-Oriented design for Microsoft.
 
-#### .NET Core ####
+#### .NET Core
+
 So we've spoken a little about the origins of C# as a programming language and how it was originally shipped as another "flavour" of the .NET framework with a C-Like finish, but how does that relate to the state of the art today?
 
 On March 31st, 2014 the .NET Foundation was founded by Microsoft with the sole intention of improving open-source software and collaboration around the .NET Framework. Amongst all the other projects that were invested in as part of these renewed efforts to _make .NET great again_; Microsoft announced **.NET Core** - a ground-up redesign of the language with an emphasis on multiple platforms and portability.
