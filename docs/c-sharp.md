@@ -36,13 +36,13 @@ It was a year that saw cinema screens _rocked_ by the smouldering hair cuts of D
 But even more impressive, even more _profoundly important_ - In a small town in California, a crack group of nerds had given birth to a C-based Form Generator known as **Ruby** (no not that Ruby).
 
 <p align="center">
-<img src="./c-sharp/img/ruby_team.gif" alt="Lock up your daughters">
+<img src="./c-sharp/img/ruby_team.gif" mouseover="Lock up your daughters">
 </p>
 
 Immediately snaffled up by Bill Gates as a "cool" extension to one of their ongoing in-house projects (the outrageously-named **Project Thunder**) - **Visual Basic** was introduced to baying hordes of ListBox enthusiasts at the Atlanta World Trade Show in the spring of 1991.
 
 <p align="center">
-<img src="./c-sharp/img/bill.gif" alt="Needs more jpeg">
+<img src="./c-sharp/img/bill.gif" mouseover="Needs more jpeg">
 </p>
 
 Whilst there were numerous languages preceding Visual Basic that enabled devs to create Guis; this was the first time that a "drag 'n' drop" simplicity had been extended to an enterprise-y development environment. Not only could you now piece together multiple screens based off discrete components, but with its introduction of _Events_; you could easily create callback methods which would be executed on the click of a button/scroll of a ListBox:

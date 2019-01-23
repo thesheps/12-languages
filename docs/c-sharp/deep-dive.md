@@ -92,7 +92,7 @@ Console.WriteLine(username);
    My syntax highlighter is complaining that "Newing" is not a word:
 
    <p align="center">
-      <img src="./img/newing.png" alt="I think you'll find it is.">
+      <img src="./img/newing.png" mouseover="I think you'll find it is.">
    </p>
    
    I promise it is, though! By using the ```new``` keyword, we _instantiate_ a new variable with the type User. We can then use its ```GetUsername``` method on line 4 in order to grab the Username string (covered above ^^^), and latterly write it to ```stdout``` using the ```WriteLine``` method of the Console class.
