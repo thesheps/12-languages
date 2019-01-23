@@ -63,6 +63,7 @@ namespace Examples
 ```
 
 - **Line 3** - The Class Declaration
+
   Here we're saying "Hey! This is a class. It is called User."
 
 - **Line 5** - The Method Declaration
@@ -74,6 +75,7 @@ namespace Examples
   `GetUsername()` - This is the name of our method. The open-close parentheses could house a few different parameters, but right now there aren't any. It is parameterless.
 
 - **Line 7** - The Return
+
   Here we return a `string` with the value "JoeBloggs". _All_ strings in C# need to be enclosed in double quotes.
 
 ##### Instances
