@@ -6,6 +6,6 @@ SO - Without any ado _whatsoever_:
 
 ---
 
-[**Month 1** - C#](c-sharp/background.md)
+[**Month 1** - C#](c-sharp.md)
 
 ---
