@@ -2,15 +2,15 @@
 title: Month 1 - C#. Deep Dive.
 ---
 
-### Deep-Dive
+# Deep-Dive
 
 Ok. We've said a whole bunch about the history of the language, a few common uses and demonstrated a very simple "Hello World". Let's get our feet wet and take a look through some language specifics now!
 
-#### Namespaces, Classes and Methods (oh my!)
+## Namespaces, Classes and Methods (oh my!)
 
 Ok. Now we've explored a simple code snippet, let's review a few fundamentals in a bit more depth!
 
-##### Namespaces
+### Namespaces
 
 A namespace in C# is a _container_ for stuff. It defines a grouping of logical components. You don't _need_ to use namespaces, but it is highly recommended for an application of any complexity so that you can keep everything nicely organised.
 
@@ -30,7 +30,7 @@ You'll undoubtedly see loads more conventions in the wild, but if you stick to t
 
 **Note:** It's super important not to name any _Class_ in your Namespace with the same name as your Namespace. Whilst the compiler might not shout at you, you run the risk of introducing insidious bugs and confusion into your codebase. Don't do this.
 
-##### Classes & Methods
+### Classes & Methods
 
 Classes are the building blocks of applications. Every piece of functionality you write in any program will be housed in a class.
 
@@ -78,7 +78,7 @@ namespace Examples
 
   Here we return a `string` with the value "JoeBloggs". _All_ strings in C# need to be enclosed in double quotes.
 
-##### Instances
+### Instances
 
 But how do we actually _call_ this method? In C# there are a few different options. As it currently stands, we can make an _instance_ of this class, and call our method directly:
 
@@ -104,7 +104,7 @@ Console.WriteLine(username);
    
    I promise it is, though! By using the ```new``` keyword, we _instantiate_ a new variable with the type User. We can then use its ```GetUsername``` method on line 4 in order to grab the Username string (covered above ^^^), and latterly write it to ```stdout``` using the ```WriteLine``` method of the Console class.
 
-##### Access Modifiers
+### Access Modifiers
 
 So far eeeeeverything we've done has been `public` (open to the containing Assembly and any _referencing_ assemblies). The above example _news up_ an _instance_ of the User class.
 
@@ -138,7 +138,7 @@ So what does that actually mean?
 All in all that's a pretty useful set of scenarios that I am _convinced_ you'll probably end up using (and potentially abusing) as you get more familiar with C#.
 
 
-##### Other Bits and Bats #####
+### Other Bits and Bats
 Another interesting keyword we should take a look at is:
 
 `static`

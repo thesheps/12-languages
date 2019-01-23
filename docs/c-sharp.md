@@ -8,19 +8,19 @@ Once the closed-source staple of enterprise Windows applications and web monolit
 
 ---
 
-### What is it?
+# What is it?
 
 C# is a general purpose, multi-paradigm programming language and has run-times available for Mac OSX, Windows and Linux.
 
 ---
 
-### What can I build with it?
+# What can I build with it?
 
 Web apps, services, CLIs, serverless components, games (Unity's preferred scripting language is C#), Windows desktop applications and more.
 
 ---
 
-### What do I need to get started?
+# What do I need to get started?
 
 - The **dotnet core** SDK
 
@@ -32,7 +32,7 @@ Web apps, services, CLIs, serverless components, games (Unity's preferred script
 
 ---
 
-### History
+# History
 
 To really understand the history of C#, we need to take a step back in time to the year 1990...
 
@@ -61,7 +61,7 @@ End Sub
 
 Visual Basic would go on to have a shelf-life of some 18 more years before it was finally put out to pasture but, with its origins so deeply entrenched in the Windows API, its spirit continues to live on today.
 
-#### The .NET Framework
+## The .NET Framework
 
 A somewhat rambling introduction to what I was aiming to be quite a _techy_ publication; but I thought a bit of history might be jolly before jumping straight into the language proper.
 
@@ -124,7 +124,7 @@ This was very much the _meat and potatoes_ of the modern programming language, a
 
 But putting the banjos aside for just one second - This first incarnation of C# (whilst lacking some of the more advanced features such as asynchronous processing or support for generic types) was an incredible milestone of Object-Oriented design for Microsoft.
 
-#### .NET Core
+## .NET Core
 
 So we've spoken a little about the origins of C# as a programming language and how it was originally shipped as another "flavour" of the .NET framework with a C-Like finish, but how does that relate to the state of the art today?
 
