@@ -122,28 +122,69 @@ Taken from the [Official Docs](https://docs.microsoft.com/en-us/dotnet/csharp/la
 
 > Access modifiers are keywords used to specify the declared accessibility of a member or a type.
 
-`public`
+So what does that actually mean?
 
-Access is not restricted.
+|||
+| ----- | ----- |
+| `public` | Access is not restricted |
+| `protected` | Access is limited to the containing class or types derived from the containing class |
+| `internal` | Access is limited to the current assembly |
+| `protected internal` | Access is limited to the current assembly or types derived from the containing class |
+| `private` | Access is limited to the containing type |
+| `private protected` | Access is limited to the containing class or types derived from the containing class within the current assembly. |
 
-`protected`
+All in all that's a pretty useful set of scenarios that I am _convinced_ you'll probably end up using (and potentially abusing) as you get more familiar with C#.
 
-Access is limited to the containing class or types derived from the containing class.
 
-`internal`
+##### Other Bits and Bats #####
+Another interesting keyword we should take a look at is:
 
-Access is limited to the current assembly.
+`static`
 
-`protected internal`
+What's this guy all about, then? We've actually come into contact with this keyword before, back in our _simplest possible thing:_
 
-Access is limited to the current assembly or types derived from the containing class.
+```csharp
+public static void Main()
+{
+   Console.WriteLine("Hello World!");
+}
+```
+What does this mean? Essentially this method **CANNOT BE ACCESSED WITHIN AN INSTANCE CONTEXT!**
 
-`private`
+```csharp
+var program = new Program();
+program.Main() // <--- THIS IS NOT A THING
+```
 
-Access is limited to the containing type.
+Another little example:
+```csharp
+public static class MyStaticClass
+{
+   public static int GetMyStaticInt()
+   {
+      return 1;
+   }
 
-`private protected`
+   public int GetMyInstanceInt()
+   {
+      return 2;
+   }
+}
+```
 
-Access is limited to the containing class or types derived from the containing class within the current assembly.
+Here we see `static` in a slightly different context - when decorating a Class. What does this mean? Essentially it means that you **CANNOT CREATE AN INSTANCE OF THIS OBJECT!**
 
-That's a lot of information, I know - but you'll find a lot of different use cases for each of these on your travels. Be safe out there.
+```csharp
+// Nope.
+var thing = new MyStaticClass();
+
+// Absolutely not this either.
+var int1 = MyStaticClass.GetMyInstanceInt(); 
+
+// This, though! This is a thing :)
+var int2 = MyStaticClass.GetMyStaticInt();
+```
+
+---
+
+This pretty much covers the building blocks of the language! Go here to extend your new-found appreciation of C# with the fundamentals of Object Oriented programming!
