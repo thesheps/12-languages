@@ -189,4 +189,4 @@ var int2 = MyStaticClass.GetMyStaticInt();
 
 ---
 
-This pretty much covers the building blocks of the language! Go here to extend your new-found appreciation of C# with the fundamentals of Object Oriented programming!
+This pretty much covers the building blocks of the language! [Go here](./object-oriented-design.md) to extend your new-found appreciation of C# with the fundamentals of Object Oriented programming!
