@@ -41,6 +41,51 @@ public class Teacher : User
 
 Both `Student` and `Teacher` are both derivatives/children of `User`. They both have access to a DateTime property called DateOfBirth.
 
+```csharp
+public class Student : User
+{
+}
+
+public class Teacher : User
+{
+    public bool CanTeach()
+    {
+        return true;
+    }
+}
+
+public class Headteacher : Teacher
+{
+    public bool IsLeGrandeFromage()
+    {
+        return true;
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        var user = new Headteacher();
+        Console.WriteLine(user.IsGrandeFromage());
+        Console.WriteLine(user.CanTeach());
+        // Prints:
+        // True
+        // True
+    }
+}
+```
+In _this_ example, the Headteacher class inherits from Teacher which in turn inherits from User. This is absoutely fine. What _isn't_ absolutely fine is:
+
+```csharp
+public class UberTeacher : Teacher, Headteacher
+{
+}
+```
+Es ist verboten. You cannot  inherit from multiple `classes` in different hierarchies. The chain of inheritance is throught parents, grandchildren, great-grandchildren (etc).
+
+__INTERESTING FACT:__ All classes in C# inherit from `Object` eventually. It's objects all the way down, people!
+
 # Interfaces
 Interfaces are "contracts" that classes need to abide by, or they'll be arrested by the Police!
 
@@ -156,3 +201,5 @@ public static class Program
 ```
 
 How does this work? C# is able to scan the contents of these Type classes using `Reflection`. It's unbelievably powerful, and allows you to do all manner of crazy shit like set property values dynamically, run methods etc. That's all I have to say on the matter right now.
+
+[Next](./c-sharp-in-practise.md) we look at C# in practise. We'll give you a couple of code examples, we'll talk a little bit about unit testing and point you at a few resources for starting different flavours of applications.
