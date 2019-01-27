@@ -14,7 +14,7 @@ Ok. Now we've explored a simple code snippet, let's review a few fundamentals in
 
 A namespace in C# is a _container_ for stuff. It defines a grouping of logical components. You don't _need_ to use namespaces, but it is highly recommended for an application of any complexity so that you can keep everything nicely organised.
 
-If you want to reference a class within a namespace, you use the _import_ statement. Without specifying this using statement, we could refer to it by it's _fully-qualified name_:
+If you want to reference a `Class` within a namespace, you use the _import_ statement. Without specifying this using statement, we could refer to it by it's _fully-qualified name_:
 
 ```csharp
 System.Console
@@ -47,7 +47,7 @@ namespace Examples
 }
 ```
 
-Here we've introduced an empty class called "User". It belongs to a namespace called "Examples". It doesn't do anything though. Lazy thing. Let's give it a job.
+Here we've introduced an empty class called "User". It belongs to a namespace called "Examples". It doesn't do anything though. Lazy thing. Let's give it a job:
 
 ```csharp
 namespace Examples
@@ -189,4 +189,4 @@ var int2 = MyStaticClass.GetMyStaticInt();
 
 ---
 
-This pretty much covers the building blocks of the language! [Go here](./object-oriented-design.md) to extend your new-found appreciation of C# with the fundamentals of Object Oriented programming!
+This pretty much covers the building blocks of the language! [Go here](./design.md) to learn a little bit more about the design of the language, including some of the specifics of Object Orientation in .NET!

@@ -75,14 +75,14 @@ public class Program
     }
 }
 ```
-In _this_ example, the Headteacher class inherits from Teacher which in turn inherits from User. This is absoutely fine. What _isn't_ absolutely fine is:
+In _this_ example, the Headteacher class inherits from Teacher which in turn inherits from User. This is absolutely fine. What _isn't_ absolutely fine is:
 
 ```csharp
 public class UberTeacher : Teacher, Headteacher
 {
 }
 ```
-Es ist verboten. You cannot  inherit from multiple `classes` in different hierarchies. The chain of inheritance is throught parents, grandchildren, great-grandchildren (etc).
+Es ist verboten. You cannot  inherit from multiple `classes` in different hierarchies. The chain of inheritance is through parents, grandchildren, great-grandchildren (etc).
 
 __INTERESTING FACT:__ All classes in C# inherit from `Object` eventually. It's objects all the way down, people!
 
@@ -133,7 +133,7 @@ public abstract class Gun
 }
 ```
 
-# Method overriding and Method overloading
+# Method Overriding and Method Overloading
 Say you've got a `class` called Gun. Say you want to change the behaviour of one of its methods. You can use the `virtual` method of the parent class to say "Hey! You can change what this does, if you like!"
 
 You can then use the `override` keyword in a derived class to change the implementation.
@@ -202,4 +202,4 @@ public static class Program
 
 How does this work? C# is able to scan the contents of these Type classes using `Reflection`. It's unbelievably powerful, and allows you to do all manner of crazy shit like set property values dynamically, run methods etc. That's all I have to say on the matter right now.
 
-[Next](./c-sharp-in-practise.md) we look at C# in practise. We'll give you a couple of code examples, we'll talk a little bit about unit testing and point you at a few resources for starting different flavours of applications.
+[Next](./in-practise.md) we look at C# in practise. We'll give you a couple of code examples, we'll talk a little bit about unit testing and point you at a few resources for starting different flavours of applications.

@@ -49,7 +49,7 @@ This ends up:
 
 There are loads more docs [here](https://www.nuget.org/) if you want to take a look!
 
-# Signing Off.
+# Signing Off
 I know this has been a bit of a whistle-stop tour on C#, but I hope you've enjoyed reading it as much as I've enjoyed putting it together.
 
 To continue your journey, I recommend taking a look at the following docs:
