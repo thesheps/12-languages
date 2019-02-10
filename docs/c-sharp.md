@@ -5,9 +5,6 @@ title: Month 1 - C#
 # Month 1 - C#
 Once the closed-source staple of enterprise Windows applications and web monoliths, C# has evolved into a lightweight, cross-platform and scalable programming language with a growing community of open source contributors.
 
----
-
-# What is it?
 C# is a general purpose, multi-paradigm programming language and has run-times available for Mac OSX, Windows and Linux.
 
 ---

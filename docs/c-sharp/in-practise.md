@@ -1,5 +1,5 @@
 ---
-title: C# in Practise
+title: Month 1. C# - In Practise
 ---
 
 # Projects

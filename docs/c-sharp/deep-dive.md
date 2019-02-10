@@ -1,5 +1,5 @@
 ---
-title: Month 1 - C#. Deep Dive.
+title: Month 1. C# - Deep Dive
 ---
 
 # Deep-Dive

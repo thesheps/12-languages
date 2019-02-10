@@ -1,5 +1,5 @@
 ---
-title: Month 1 - C#. Object-Oriented Design.
+title: Month 1. C# - Object-Oriented Design
 ---
 
 # Objects Vs. Classes

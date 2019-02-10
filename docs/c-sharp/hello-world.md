@@ -1,5 +1,5 @@
 ---
-title: Month 1 - C#. Hello, World.
+title: Month 1. C# - Hello, World
 ---
 
 # Hello, World
